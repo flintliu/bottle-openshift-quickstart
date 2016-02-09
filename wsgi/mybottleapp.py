@@ -44,9 +44,8 @@ def static(path):
 
 
 # This must be added in order to do correct path lookups for the views
-# import os
-# from bottle import TEMPLATE_PATH
-# TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/static/'))
+import os
+from bottle import TEMPLATE_PATH
+TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/static/'))
 
 application=default_app()
-run(host='localhost', port=8080, debug=True)
