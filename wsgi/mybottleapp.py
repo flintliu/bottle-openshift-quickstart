@@ -3,7 +3,6 @@ from bottle import route, default_app, static_file, run
 
 @route('/')
 @route('/index')
-@route('/index.html')
 def index():
     return static_file('index.html', root='static')
 
@@ -44,8 +43,8 @@ def static(path):
 
 
 # This must be added in order to do correct path lookups for the views
-import os
-from bottle import TEMPLATE_PATH
-TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/static/'))
+#import os
+#from bottle import TEMPLATE_PATH
+#TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/static/'))
 
 application=default_app()
