@@ -1,31 +1,31 @@
-from bottle import route, default_app, static_file
+from bottle import route, default_app, static_file, run
 
 
 @route('/')
 @route('/index')
+@route('/index.html')
 def index():
-    return 'hello123'
-    #return static_file('index.html', root='static/index.html')
+    return static_file('index.html', root='static')
 
 
 @route('/jglxt')
 def jglxt():
-    return static_file('jglxt.html', root='static/jglxt.html')
+    return static_file('jglxt.html', root='static')
 
 
 @route('/wxgzcs')
 def wxgzcs():
-    return static_file('wxgzcs.html', root='static/wxgzcs.html')
+    return static_file('wxgzcs.html', root='static')
 
 
 @route('/zwjg')
 def zwjg():
-    return static_file('zwjg.html', root='static/zwjg.html')
+    return static_file('zwjg.html', root='static')
 
 
 @route('/contact')
 def contact():
-    return static_file('contact.html', root='static/contact.html')
+    return static_file('contact.html', root='static')
 
 
 @route('/css/:path#.+#', name='css')
@@ -44,8 +44,9 @@ def static(path):
 
 
 # This must be added in order to do correct path lookups for the views
-import os
-from bottle import TEMPLATE_PATH
-TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/static/'))
+# import os
+# from bottle import TEMPLATE_PATH
+# TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/static/'))
 
 application=default_app()
+run(host='localhost', port=8080, debug=True)
