@@ -4,7 +4,7 @@ from bottle import route, default_app, static_file
 @route('/')
 @route('/index')
 def index():
-    return static_file('index.html', root='.')
+    return static_file('index.html', root='')
 
 
 @route('/jglxt')
