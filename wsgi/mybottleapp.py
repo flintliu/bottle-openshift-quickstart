@@ -3,13 +3,8 @@ from bottle import route, default_app, static_file, redirect
 
 @route('/')
 @route('/index')
-def index_redirect():
-    return redirect('/static/index.html')
-
-
-@route('/static/index.html')
 def index():
-    return static_file('index.html', root='static')
+    return static_file('index.html', root='static/static')
 
 
 @route('/jglxt')
