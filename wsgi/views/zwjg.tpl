@@ -66,21 +66,12 @@
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main about-main">
 				<div class="about-slid">
 					<div class="abt-slid-text">
-						<h2>中文交规</h2>
+						<h2>独立驾驶之路--中文版</h2>
 					</div>
 				</div>
 				<div class="about">
 					<div class="col-md-4 about-grids">
 						<img src="../static/images/img7.jpg" alt=""/>
-					</div>
-					<div class="col-md-4 about-grids">
-						<h4></h4>
-						<h4></h4>
-						<h4>考试须知</h4>
-						<p>前往vicroads.vic.gov.au进行网上预订（准备好有效的master card或visa卡）</p>
-						<p>使用本地电话预约131171（准备好有效的master card或visa卡），海外拨打+61 3 9854 7764，同声传译服务1300 555 727；</p>
-						<p>预约时你会被问到：全名、出生日期、住址、希望在何时何地参加考试；预约时需要缴纳预约和考试费用，随后你会得到一个预约号码，并在参加考试时提供给路局工作人员。</p>
-						<p>交通规则电脑考试，主要内容是基于独立驾驶之路的内容，共有32个选择题目，你可以提前申请使用中文版本进行考试，通过78%的成绩为合格，通过后即可取得临时的学习驾照，之后大概一周后就会收到带有照片的学习驾照。</p>
 					</div>
 					<div class="col-md-4 about-grids">
 					<ul>

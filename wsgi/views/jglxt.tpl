@@ -91,10 +91,10 @@
 								<div class="resume">
 									<span>2</span>
 									<img src="../static/images/icon4.png" alt=""/>
-									<h4>危险感知测试说明</h4>
-									<h5>Hazard Perception Test</h5>
-									<p>这个测试是在电脑上完成的，测试时间总共45分钟，只能在VCSC参加，可以选择中文作答,结果根据安全性进行评估。</p>
-									<a class="btn btn-primary" href="https://www.vicroads.vic.gov.au/licences/your-ps/get-your-ps/hazard-perception-test" role="button" target="_blank">了解更多</a>
+									<h4>Practice Learner Permit Test</h4>
+									<h5>Online practice test</h5>
+									<p>Find out how to get your car learner permit and your responsibilities if you are planning to learn to drive for the first time.</p>
+									<a class="btn btn-primary" href="https://www.vicroads.vic.gov.au/licences/your-ls" role="button" target="_blank">了解更多</a>
 								</div>
 							</div>
 							<div class="col-md-4 resume-grid">
