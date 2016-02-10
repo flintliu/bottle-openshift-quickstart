@@ -2,8 +2,8 @@
 <html>
 <head>
 <title>Home</title>
-<link href="static/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-<link href="static/css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
 <!--web-font-->
 <link href='http://fonts.useso.com/css?family=Marvel:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -16,11 +16,11 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //Custom Theme files -->
 <!-- js -->
-<script src="static/js/jquery-1.11.1.min.js"></script>
+<script src="../js/jquery-1.11.1.min.js"></script>
 <!-- //js -->	
 <!-- start-smoth-scrolling-->
-<script type="text/javascript" src="static/js/move-top.js"></script>
-<script type="text/javascript" src="static/js/easing.js"></script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
 <script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
@@ -37,10 +37,10 @@
 			<!--side-bar-->
 			<div class="col-sm-3 col-md-2 sidebar">
 				<div class="logo">
-					<a href="index.html"><img src="static/images/logo.png" alt="logo"/></a>
+					<a href="index.html"><img src="../images/logo.png" alt="logo"/></a>
 				</div>
 				<div class="top-nav">
-					<span class="menu-icon"><img src="static/images/menu-icon.png" alt=""/></span>
+					<span class="menu-icon"><img src="../images/menu-icon.png" alt=""/></span>
 					<div class="nav1">
 						<ul class=" nav nav-sidebar">
 							<li class="active"><a href="index">首页</a></li>
@@ -79,7 +79,7 @@
 					<div name="pos" class="welcome">
 						<h3>欢迎来到墨尔本公交驾校</h3>
 						<div class="col-md-4 welcome-left">
-							<img src="static/images/img6.jpg" alt="">
+							<img src="../images/img6.jpg" alt="">
 						</div>
 						<div class="col-md-8 welcome-right">
 							<h4>著名老牌驾校20年敎车经验. 持DIA专职教练服务华人社区口碑第一.</h4>
@@ -186,6 +186,6 @@
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="static/js/bootstrap.js"> </script>
+    <script src="../js/bootstrap.js"> </script>
 </body>
 </html>
