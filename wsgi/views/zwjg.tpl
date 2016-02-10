@@ -2,8 +2,8 @@
 <html>
 <head>
 <title>About</title>
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="../static/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="../static/css/style.css" type="text/css" rel="stylesheet" media="all">
 <!--web-font-->
 <link href='http://fonts.useso.com/css?family=Marvel:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -16,11 +16,11 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //Custom Theme files -->
 <!-- js -->
-<script src="js/jquery-1.11.1.min.js"></script>
+<script src="../static/js/jquery-1.11.1.min.js"></script>
 <!-- //js -->	
 <!-- start-smoth-scrolling-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="../static/js/move-top.js"></script>
+<script type="text/javascript" src="../static/js/easing.js"></script>
 <script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
@@ -37,16 +37,15 @@
 			<!--side-bar-->
 			<div class="col-sm-3 col-md-2 sidebar">
 				<div class="logo">
-					<a href="../views/index.tpl"><img src="images/logo.png" alt="logo"/></a>
+					<a href="index.tpl"><img src="../static/images/logo.png" alt="logo"/></a>
 				</div>
 				<div class="top-nav">
-					<span class="menu-icon"><img src="images/menu-icon.png" alt=""/></span>
+					<span class="menu-icon"><img src="../static/images/menu-icon.png" alt=""/></span>
 					<div class="nav1">
 						<ul class=" nav nav-sidebar">
 							<li><a href="index">首页</a></li>
-							<li><a href="zwjg">中文交规</a></li>
-							<li><a href="jglxt">交规练习题</a></li>
-							<li class="active"><a href="wxgzcs">危险感知测试</a></li>
+							<li class="active"><a href="zwjg">中文交规</a></li>
+							<li><a href="jglxt">交规及危险感知测试</a></li>
                             <li><a href="index#pos">收费标准</a></li>
 							<li><a href="contact">联系我们</a></li>
 						</ul>
@@ -67,19 +66,31 @@
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main about-main">
 				<div class="about-slid">
 					<div class="abt-slid-text">
-						<h2>危险感知测试</h2>
+						<h2>中文交规</h2>
 					</div>
 				</div>
 				<div class="about">
 					<div class="col-md-4 about-grids">
-						<img src="images/img7.jpg" alt=""/>
+						<img src="../static/images/img7.jpg" alt=""/>
+					</div>
+					<div class="col-md-4 about-grids">
+						<h4></h4>
+						<h4></h4>
+						<h4>考试须知</h4>
+						<p>前往vicroads.vic.gov.au进行网上预订（准备好有效的master card或visa卡）</p>
+						<p>使用本地电话预约131171（准备好有效的master card或visa卡），海外拨打+61 3 9854 7764，同声传译服务1300 555 727；</p>
+						<p>预约时你会被问到：全名、出生日期、住址、希望在何时何地参加考试；预约时需要缴纳预约和考试费用，随后你会得到一个预约号码，并在参加考试时提供给路局工作人员。</p>
+						<p>交通规则电脑考试，主要内容是基于独立驾驶之路的内容，共有32个选择题目，你可以提前申请使用中文版本进行考试，通过78%的成绩为合格，通过后即可取得临时的学习驾照，之后大概一周后就会收到带有照片的学习驾照。</p>
 					</div>
 					<div class="col-md-4 about-grids">
 					<ul>
 						<p></p>
 						<p></p>
-						<li><a href="https://www.vicroads.vic.gov.au/licences/your-ps/get-your-ps/hazard-perception-test" target="_blank">H.P.T.介绍</a></li>
-						<li><a href="http://mylicence.sa.gov.au/hazard-perception-test" target="_blank">进入模拟考试</a></li>
+						<li><a href="http://nebula.wsimg.com/85266e7bc42a36c4abbca5b47d221c4d?AccessKeyId=81D870085D8C9A973382&disposition=0&alloworigin=1" target="_blank">简介</a></li>
+						<li><a href="http://nebula.wsimg.com/ce78faf7a87adc3da3cd80c059c53523?AccessKeyId=81D870085D8C9A973382&disposition=0&alloworigin=1" target="_blank">第一部分</a></li>
+						<li><a href="http://nebula.wsimg.com/2a70ece65fa1a24b3c23d30550fdfabb?AccessKeyId=81D870085D8C9A973382&disposition=0&alloworigin=1" target="_blank">第二部分</a></li>
+						<li><a href="http://nebula.wsimg.com/efc843da2084c4015d1e87349568a0e5?AccessKeyId=81D870085D8C9A973382&disposition=0&alloworigin=1" target="_blank">第三部分</a></li>
+						<li><a href="http://nebula.wsimg.com/275702c5ae4a06eeabb8c836445e840b?AccessKeyId=81D870085D8C9A973382&disposition=0&alloworigin=1" target="_blank">第四部分</a></li>
 					</ul>
 				</div>
 					<div class="clearfix"> </div>
@@ -91,6 +102,6 @@
 <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"> </script>
+    <script src="../static/js/bootstrap.js"> </script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-from bottle import route, default_app, static_file, redirect, template, run
+from bottle import route, default_app, static_file, template
 
 
 @route('/')
@@ -8,43 +8,23 @@ def index():
 
 
 @route('/jglxt')
-def jglxt_redirect():
-    return redirect('/static/jglxt.html')
-
-
-@route('/static/jglxt.html')
 def jglxt():
-    return static_file('jglxt.html', root='static')
+    return template("jglxt")
 
 
 @route('/wxgzcs')
-def wxgzcs_redirect():
-    return redirect('/static/wxgzcs.html')
-
-
-@route('/static/wxgzcs.html')
 def wxgzcs():
-    return static_file('wxgzcs.html', root='static')
+    return template("wxgzcs")
 
 
 @route('/zwjg')
-def zwjg_redirect():
-    return redirect('/static/zwjg.html')
-
-
-@route('/static/zwjg.html')
 def zwjg():
-    return static_file('zwjg.html', root='static')
+    return template("zwjg")
 
 
 @route('/contact')
-def contact_redirect():
-    return redirect('/static/contact.html')
-
-
-@route('/static/contact.html')
 def contact():
-    return static_file('contact.html', root='static ')
+    return template("contact")
 
 
 @route('/css/:path#.+#', name='css')
