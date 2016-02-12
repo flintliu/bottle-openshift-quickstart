@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>About</title>
+<title>墨尔本公交驾校 -- 交规及危险感知测试</title>
 <link href="../static/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="../static/css/style.css" type="text/css" rel="stylesheet" media="all">
 <!--web-font-->

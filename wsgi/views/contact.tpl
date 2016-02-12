@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Contact</title>
+<title>墨尔本公交驾校 -- 联系我们</title>
 <link href="../static/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="../static/css/style.css" type="text/css" rel="stylesheet" media="all">
 <!--web-font-->
@@ -80,9 +80,7 @@
 						<div class="clearfix"> </div>	
 					</div>				
 				</div>
-				<div class="footer">
-					<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-				</div>
+
 			</div>
 			<div class="clearfix"> </div>	
 		</div>
