@@ -94,7 +94,7 @@
 									<h4>Practice Learner Permit Test</h4>
 									<h5>Online practice test</h5>
 									<p>Find out how to get your car learner permit and your responsibilities if you are planning to learn to drive for the first time.</p>
-									<a class="btn btn-primary" href="https://www.vicroads.vic.gov.au/licences/your-ls" role="button" target="_blank">了解更多</a>
+									<a class="btn btn-primary" href="https://www.vicroads.vic.gov.au/licences/your-ls/get-your-ls/lpt" role="button" target="_blank">了解更多</a>
 								</div>
 							</div>
 							<div class="col-md-4 resume-grid">
